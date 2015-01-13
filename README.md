@@ -1,0 +1,1 @@
+simple rock paper scissors game in python. Demonstrates use of dicts. Uses type function to create a dict that functions similarly to a enumerated type in c. Will keep playing as long as the user wishes to continue. 
