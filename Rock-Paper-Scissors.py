@@ -10,7 +10,7 @@ def enum(*sequential, **named):
 Possible_Choices = enum('ROCK', 'PAPER', 'SCISSORS')
 
 def user_wants_to_continue():
-    "asks the user if they want to continue"
+    ""asks the user if they want to continue""
     while True:
         answer = raw_input('Do you wish to continue? (y/n):')[0].lower()
         if answer == "n":
@@ -19,7 +19,7 @@ def user_wants_to_continue():
             return True
     
 def player_choice():
-    "This function asks the user to pick rock paper or scissors"
+    ""This function asks the user to pick rock paper or scissors""
     while True:
         choice = raw_input('Please enter your choice (p)aper, (r)ock, or (s)cissors: ')[0].lower()
         if choice == "p":
